@@ -26,6 +26,9 @@
 	</developers>
 
 	<properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+		
 		<application.name>api-pricing</application.name>
 		<application.mainClass>com.twa.flights.api.pricing.App</application.mainClass>
 

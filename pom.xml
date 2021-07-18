@@ -4,9 +4,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.twa.flights</groupId>
-	<artifactId>api-flights</artifactId>
-	<version>1.0.0</version>
+	<groupId>com.twa.flights.common</groupId>
+	<artifactId>flights-parent</artifactId>
+	<version>1.0.4</version>
 	<name>api-flights</name>
 	<description>All the things common in all the projects</description>
 	<packaging>pom</packaging>
@@ -29,6 +29,9 @@
 	</modules>
 
 	<properties>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
+
 		<sonar.projectKey>andres-sacco_manning-twa-api</sonar.projectKey>
 		<sonar.organization>adschosen-github</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
